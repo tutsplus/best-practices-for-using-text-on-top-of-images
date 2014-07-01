@@ -1,0 +1,62 @@
+body {
+  background-color: #333;
+}
+div {
+  width: 1120px;
+  height: 420px;
+  margin: 0 auto;
+  position: relative;
+  clear: both;
+}
+div a {
+  background-image: url('https://dl.dropboxusercontent.com/s/kk2zic9kvtfmpdd/office-5.jpg');
+  -webkit-background-size: cover;
+  background-size: cover;
+  display: block;
+  float: left;
+  width: 560px;
+  height: 360px;
+  overflow: visible;
+}
+.bad-example {
+  position: relative;
+}
+.bad-example span {
+  position: absolute;
+  display: block;
+  top: 50%;
+  width: 80%;
+  left: 10%;
+  height: 20px;
+  color: #fff;
+  font-size: 2em;
+  z-index: 99999;
+}
+.good-example {
+  position: relative;
+}
+.good-example span {
+  position: absolute;
+  display: block;
+  top: 30%;
+  width: 38%;
+  left: 48%;
+  height: 100px;
+  margin-top: -50px;
+  color: #fff;
+  font-size: 2em;
+  font-weight: 100;
+  text-align: left;
+  z-index: 99999;
+}
+blockquote {
+  margin: 0;
+  position: absolute;
+  display: block;
+  top: 360px;
+  left: 0;
+  padding: 6px;
+  font-weight: 100;
+  z-index: 9999;
+  background-color: #dadada;
+}
